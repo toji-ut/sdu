@@ -1,0 +1,9 @@
+[project]
+name = "sdu"
+version = "0.1.0"
+description = "Smart Disk Usage - a safe CLI tool to analyze disk usage"
+authors = [{ name = "anderson" }]
+dependencies = ["rich"]
+
+[project.scripts]
+sdu = "sdu.main:main"
